@@ -44,7 +44,10 @@ align-items: center;
   background: linear-gradient(to right, black, grey, black);
 }
 
-
+.logo{
+  color: #DAF760;
+  font-size: 28px;
+}
 
 /* ------------first container--------------- */
 
