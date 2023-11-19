@@ -1,0 +1,410 @@
+/* ---- */
+*{
+  font-family: "Neurial Grotesk", sans-serif;
+ 
+}
+.App{
+  padding: 0 10% 0 10%;
+  /* margin: 0 10% 0 10%; */
+  color: white;
+  background-color: rgb(4, 8, 4);
+}
+.flex{
+display: flex;
+}
+
+/* ----------header------- */
+
+.main-header{
+height: 96px;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+
+.menu-header{
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.menu-header > p{
+  font-size: 14px;
+}
+
+.trade-btn{
+  width: 140px;
+  background: linear-gradient(85.85deg, #D4F938 23.09%, #32D875 108.69%);
+ color: rgb(9, 19, 11);
+ border: none;
+ border-radius: 8px;
+ font-weight: 700;
+}
+
+.styled-div {
+  height: 1px;
+  background: linear-gradient(to right, black, grey, black);
+}
+
+
+
+/* ------------first container--------------- */
+
+.first-container,.third-container,.fourth-container,.fifth-container,.sixth-container,.seveth-container,.eight-container,.ninth-container{
+  text-align: center;
+}
+
+.first-container > h1,.third-container > h2,.fourth-container>h2,.fifth-container > h2,.sixth-container > h2,.seveth-container>h2,.eight-container>h2,.ninth-container>h2{
+  font-size: 75px;
+  width: 600px;
+  margin: auto;
+}
+
+.hightlight-word{
+    background: linear-gradient(96.58deg, rgba(212, 249, 56, 0.7) 47.68%, rgba(213, 250, 57, 0.7) 70.85%); 
+    -webkit-background-clip: text;
+    color: transparent; 
+    text-shadow: 0 0 10px rgba(215, 251, 70, 0.7);
+}
+
+.tag-line{
+font-size: 22px;
+color: #E7E7EA;
+}
+
+.mobile-parent{
+  position: relative;
+}
+
+.mobile-wrapper-bg {
+  width: 700px;
+height: 700px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: rgb(30, 83, 47); 
+  box-shadow: 0 0 40px 40px rgb(30, 83, 47);
+}
+
+.mobiles-showcase{
+  width: 700px;
+  height: 668px;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    margin: auto;
+    z-index: 2;
+
+}
+
+.mobile-display{
+  position: relative;
+}
+
+.mobile-display  > img{
+ object-fit: cover;
+}
+
+.mobile-display > :nth-child(1){
+  border-radius: 45px;
+}
+.mobile-display > :nth-child(2){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 45px;
+}
+.main-mobile-pic{
+  margin-top: 73px;
+  width: 261.34px;
+  height: 529.67px; 
+}
+
+.mobile-left{
+margin-right: -20px;
+}
+.mobile-right{
+  margin-left: -20px;
+  }
+  .mobile-middle{
+z-index: 2;
+  }
+
+  .achievement-numbers{
+    width: 78%;
+    margin: auto;
+    padding: 2%;
+    border: 1px solid  rgba(50, 216, 117, 0.24);
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 10px 0px #EBFF2533;
+  }
+
+  .highlight-vline{
+    width: 1px;
+    height: 100px;
+    background: linear-gradient(to bottom, black, #EBFF25, black);
+  }
+
+  .achievement-numbers h2{
+    font-size: 36px;
+   color: #EBFF25;
+  }
+
+  .achievement-numbers p{
+    color: #A9A9A9;
+    font-size: 14px;
+  }
+
+  /* ------------------second container--------- */
+
+  .second-container{
+    justify-content: center;
+  }
+
+  .mobile-frames{
+    width: 165px;
+    height: 320px;
+ border: 1px solid #28B6A2;
+ border-radius: 16px;
+background: black;
+padding: 20px;
+  }
+
+
+    .mobile-frames img{
+    width: 117px;
+    display: block;
+    margin: auto;
+  }
+
+  .mobile-frames p{
+    text-align: center;
+    font-size: 23px;
+    /* background: black; */
+  }
+
+  /* ------third container------------ */
+
+  .third-container > h2,.fourth-container>h2,.fifth-container > h2,.sixth-container>h2,.seveth-container>h2,.eight-container>h2,.ninth-container>h2{
+    font-size: 50px;
+  }
+
+  .cards-parent{
+    margin: auto;
+    justify-content: space-evenly;
+    width: 70%;
+  }
+
+  .card-coindcx{
+   width: 220px;
+   background: #19191D;
+   box-shadow: 0px 0px 40px 0px #19191D
+  
+  }
+  .card-coindcx p{
+font-size: 22px;
+font-weight: 700;
+  }
+
+  .small-text{
+    font-size: 12px;
+    line-height: 0;
+    color: #A9A9A9;
+  }
+
+  .density-card{
+    background: linear-gradient(179.64deg, #DAF760 -1.86%, rgba(50, 216, 117, 0.96) 146.77%);
+    box-shadow: 0px 0px 20px 0px #E2FF6FCC;
+    color: #19191D;
+  }
+
+  .density-card .small-text{
+    color: #19191D;
+  }
+  .card-coindcx > h3{
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  /* ----------------fourth container--------- */
+
+  
+
+  .bitcoin-card-wrapper{
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+  }
+
+  .bitcoin-card{
+    width: 200px;
+    border-radius: 16px;
+    background-color: #0f0f12;
+    box-shadow: 0px 0px 10px 0px #FFFFFF80;
+
+  }
+
+  .bitcoin-card > div{
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 16px;
+  }
+
+  .bitcoin-card  p{
+    font-size: 9px;
+    text-align: left;
+  }
+
+  .bitcoin-text-wrap{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dummy-graph-pic{
+    width: 60px;
+  }
+
+  .bitcoin-logo{
+    border-radius: 50%;
+  }
+  .bitcoin-card .medium-text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0px;
+  }
+
+  .green-text{
+    color: #29B57E;
+  }
+
+  .grey-text{
+    color: #A0A0AC;
+  }
+
+  .graph-pic{
+    width: 80%;
+  }
+
+.explore-btn{
+  width: 180px;
+  height: 40px;
+}
+
+.fifth-container > p ,.sixth-container > p,.ninth-container > p{
+  width: 600px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.trading-graph p{
+  font-size: 18px;
+}
+
+/* ----------------------sixth container---------- */
+
+.sixth-container,.ninth-container{
+  background-color: white;
+}
+
+.sixth-container > h2,.sixth-container > p,.ninth-container > h2, .ninth-container > p{
+ color: black;
+}
+
+.percent-wrapper{
+  width: 70%;
+  margin:auto;
+  gap: 20px;
+}
+
+.percent-div{
+  height: 250px;
+  padding: 20px;
+  background: #F3F3F3;
+  margin: auto;
+}
+.twenty-pic{
+  width: 40%;
+}
+
+.percent-div > div{
+  justify-content: left;
+}
+.percent-div > p ,.percent-div > h3 {
+  text-align: left;
+  color: #0f0f12;
+}
+
+.percent-div > p{
+  font-size: 14px;
+}
+
+/* -------------seventh container------ */
+
+.create-acount-wrap{
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.create-acount-rule{
+  text-align: left;
+}
+
+.acount-dp{
+  width: 40%;
+  border-radius: 50%;
+}
+
+.create-acount-rule >h3{
+  font-size: 30px;
+}
+
+/* ------eight-container----- */
+
+.company-logos{
+  background-color: #0f0f12;
+}
+
+.ceo-images{
+  justify-content: center;
+ gap:10px;
+
+}
+
+/* ------ninth container---- */
+.ninth-container{
+  color: #0f0f12;
+}
+.funders-cards{
+  text-align: left;
+  gap: 20px;
+  justify-content: center;
+}
+
+.funders-cards > div{
+  width: 220px;
+  background: #F3F3F3;
+  padding: 10px 0 0 10px;
+}
+
+.funders-cards p{
+  font-size: 13px;
+}
+
+.unflash {
+width: 100px;
+float: right;
+margin-top: -10px;
+
+}
+
+/* ------tenth container----- */
+
+.tenth-container{
+   background: #229851;
+   color: white;
+   text-align: center;
+   padding: 0 10% 0 10%;
+}
+
+.footer-wrap{
+justify-content: center;
+gap: 20px;
+}
